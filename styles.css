@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 25px;
+    background-color: white;
+    padding: 5px 15px;
+    width: 23%;
+    
+}
+
+img{
+    width: 95%;
+    border-radius: 15px;
+    margin: 25px;
+}
+
+h1{
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.8rem;
+    margin: 25px;
+}
+
+p{
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.2rem;
+    margin: 25px;
+}
+
+@media screen and (max-width: 1000px) {
+    .app{
+        width: 60%;
+        height: 85%;
+    }
+    img{
+        margin: 15px;
+    }
+    h1{
+        font-size: 2rem;
+        margin: 15px;
+    }
+    p{
+        font-size: 1.4rem;
+        margin: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .app{
+        width: 80%;
+        height: 80%;
+    }
+    img{
+        margin: 10px;
+    }
+    h1{
+        font-size: 2.2rem;
+        margin: 10px;
+    }
+    p{
+        font-size: 1.8rem;
+        margin: 10px;
+    }
+}
